@@ -1,0 +1,100 @@
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  /* Center everything inside the container */
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Form Styling */
+.form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-primary {
+  background-color: #9defb1;
+}
+
+.btn-primary:hover {
+  background-color: #92eea7;
+}
+
+.btn-edit {
+  background-color: #f0e2b9;
+  margin-right: 10px;
+}
+
+.btn-edit:hover {
+  background-color: #efdfa8;
+}
+
+.btn-delete {
+  background-color: #f38d98;
+}
+
+.btn-delete:hover {
+  background-color: #d77e87;
+}
+
+/* Table Styling */
+.table {
+  width: 80%;
+  /* Reduce width so the table can be centered */
+  border-collapse: collapse;
+  margin: 20px auto;
+  /* Center the table horizontally */
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  /* Center text within the table */
+}
+
+.table th {
+  background-color: #f4f4f4;
+}
+
+.table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table td {
+  font-size: 16px;
+}
